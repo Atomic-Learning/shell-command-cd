@@ -11,7 +11,7 @@
         "powershell",
         "codespace"
     ],
-    "duration": 5,
+    "duration": 4,
     "prerequisites": [
         "cli-command-anatomy",
         "vs-code-terminal",
