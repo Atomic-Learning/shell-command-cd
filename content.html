@@ -3,7 +3,7 @@
 <ul>
   <li>bash</li>
   <li>zsh</li>
-  <li>PowerShell</li>
+  <li>PowerShell (technically an alias for <code class="language-bash">Set-Location</code>)</li>
 </ul>
 
 <h2>Usage</h2>
@@ -11,5 +11,30 @@
 <p>The basic syntax of the <code class="language-bash">cd</code> command is <code class="language-bash">cd</code> followed by a path to the desired directory. This is most commonly a relative path, but can be an absolute path. <code class="language-bash">..</code> allows you to move up one level in the directory tree.</p>
 
 <h2>Example</h2>
+
+This example takes place in the file structure of the files associated with this page. The structure of these files is:
+
+<pre><code>.
+├── content.html
+├── license.md
+├── metadata.json
+└── resources/
+    ├── cd_example.png
+    ├── placeholder.txt
+    └── subdirectory/
+        └── my_file.txt
+</code></pre>
+
+<p>The image below shows how the <code class="language-bash">cd</code> command can be used to navigate this file structure. The path to the current directory is shown in the prompt.</p>
+
+<img src="resources/cd_example.png" alt="A terminal showing the use of the cd command to navigate the file structure of the files associated with this page.">
+
+<h2>Changing to the Home Directory</h2>
+
+<p>In most shells, you can use the <code class="language-bash">cd</code> command without any arguments or with a tilde (<code class="language-bash">cd ~</code>) as a shortcut to change to the home directory.</p>
+
+<h2>Try it Yourself</h2>
+
+<p>Use the button at the top of the page to open a Codespace. The files associated with this page will be available for you to explore.In the terminal, practice using the <code class="language-bash">cd</code> command to navigate the file structure.</p>
 
 

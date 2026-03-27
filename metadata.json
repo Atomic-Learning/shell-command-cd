@@ -1,22 +1,23 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Shell Command: cd",
+    "slug": "shell-command-cd",
+    "description": "Describes the basic usage of the cd command, including usage with relative and absolute paths and changing up a directory using cd ..",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "bash",
+        "zsh",
+        "powershell"
     ],
-    "duration": 0,
+    "duration": 5,
     "prerequisites": [
-        "",
-        ""
+        "cli-command-anatomy",
+        "vs-code-terminal",
+        "programming-current-working-directory",
+        "programming-paths",
+        "shell-command-ls"
     ],
     "related": [
-        "",
-        ""
     ]
 }
